@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUXORA — Style That Defines You — LUXORA</title>
+<meta name="description" content="LUXORA is a modern fashion e-commerce experience for men, women and kids.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div class="announcement-bar">Free shipping on all orders over $150 &mdash; Code LUXORA10 for 10% off</div>
+<header class="site-header">
+    <div class="header-inner">
+        <a href="index.html" class="logo">LUXORA</a>
+        <nav class="main-nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="shop.html" class="">Shop</a>
+            <a href="shop.html?category=Men" class="">Men</a>
+            <a href="shop.html?category=Women" class="">Women</a>
+            <a href="shop.html?category=Kids" class="">Kids</a>
+            <a href="shop.html" class="">New Arrivals</a>
+            <a href="sale.html" class="">Sale</a>
+            <a href="about.html" class="">About</a>
+            <a href="contact.html" class="">Contact</a>
+        </nav>
+        <div class="header-icons">
+            <a href="#" class="icon-btn search-trigger" aria-label="Search">&#128269;</a>
+            <a href="wishlist.html" class="icon-btn" aria-label="Wishlist">&#9825;<span class="count-badge wishlist-count-badge">0</span></a>
+            <a href="#" class="icon-btn cart-trigger" aria-label="Cart">&#128092;<span class="count-badge cart-count-badge">0</span></a>
+            <a href="login.html" class="icon-btn" aria-label="Account">&#128100;</a>
+            <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <img src="assets/images/hero.jpg" alt="LUXORA fashion editorial">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <span class="eyebrow">Autumn / Winter Collection</span>
+        <h1>Define Your Everyday Style</h1>
+        <p>Contemporary fashion designed for modern living.</p>
+        <div class="hero-buttons">
+            <a href="shop.html?category=Women" class="btn btn-outline">Shop Women</a>
+            <a href="shop.html?category=Men" class="btn btn-outline">Shop Men</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-head">
+            <span class="eyebrow">Explore</span>
+            <h2 class="section-title">Shop By Category</h2>
+            <p class="section-subtitle">Curated edits for every part of your wardrobe.</p>
+        </div>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="assets/images/1.jpg" alt="Women's fashion">
+                <div class="category-card-overlay">
+                    <h3>Women</h3>
+                    <a href="shop.html?category=Women">Shop Now</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="assets/images/2.jpg" alt="Men's fashion">
+                <div class="category-card-overlay">
+                    <h3>Men</h3>
+                    <a href="shop.html?category=Men">Shop Now</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="assets/images/3.webp" alt="Kids' fashion">
+                <div class="category-card-overlay">
+                    <h3>Kids</h3>
+                    <a href="shop.html?category=Kids">Shop Now</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="assets/images/images.jpg" alt="Accessories">
+                <div class="category-card-overlay">
+                    <h3>Accessories</h3>
+                    <a href="shop.html?category=Accessories">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-cream">
+    <div class="container">
+        <div class="section-head">
+            <span class="eyebrow">Just In</span>
+            <h2 class="section-title">New Arrivals</h2>
+            <p class="section-subtitle">Fresh pieces added to the collection this week.</p>
+        </div>
+        <div class="product-grid" id="new-arrivals-grid"></div>
+    </div>
+</section>
+
+<section class="promo-banner">
+    <img src="assets/images/promo.jpg" alt="The new season">
+    <div class="hero-overlay"></div>
+    <div class="promo-content">
+        <span class="eyebrow">The New Season</span>
+        <h2>Effortless Pieces, Elevated Essentials</h2>
+        <p>A capsule of considered staples built to last beyond the season.</p>
+        <a href="shop.html" class="btn btn-outline">Explore Collection</a>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-head">
+            <span class="eyebrow">Loved By Many</span>
+            <h2 class="section-title">Best Sellers</h2>
+            <p class="section-subtitle">The pieces our customers keep coming back for.</p>
+        </div>
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-category="All">All</button>
+            <button class="tab-btn" data-category="Men">Men</button>
+            <button class="tab-btn" data-category="Women">Women</button>
+            <button class="tab-btn" data-category="Kids">Kids</button>
+        </div>
+        <div class="product-grid" id="best-sellers-grid"></div>
+    </div>
+</section>
+
+<section class="section section-cream">
+    <div class="container">
+        <div class="split-section">
+            <img src="assets/images/promo.jpg" alt="Made for the way you live">
+            <div class="split-text">
+                <span class="eyebrow">Our Approach</span>
+                <h2>Made For The Way You Live</h2>
+                <p>LUXORA designs modern staples that move between your everyday and your occasions &mdash; considered fabrics, clean lines, and details built to last well beyond a single season.</p>
+                <a href="about.html" class="btn btn-outline-dark">Our Story</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="newsletter">
+    <h2>Join The LUXORA World</h2>
+    <p>Get new collection updates, exclusive offers and fashion inspiration.</p>
+    <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+    <p class="newsletter-message"></p>
+</section>
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col footer-brand">
+                <a href="index.html" class="logo">LUXORA</a>
+                <p>Contemporary fashion designed for modern living. Timeless pieces, thoughtfully made.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="TikTok">TT</a>
+                    <a href="#" aria-label="Pinterest">PN</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="shop.html?category=Women">Women</a></li>
+                    <li><a href="shop.html?category=Men">Men</a></li>
+                    <li><a href="shop.html?category=Kids">Kids</a></li>
+                    <li><a href="shop.html">New Arrivals</a></li>
+                    <li><a href="sale.html">Sale</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">Shipping</a></li>
+                    <li><a href="faq.html">Returns</a></li>
+                    <li><a href="size-guide.html">Size Guide</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="about.html">Sustainability</a></li>
+                    <li><a href="about.html">Journal</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-newsletter">
+                <h4>Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit" class="btn btn-dark btn-block">Subscribe</button>
+                </form>
+                <p class="newsletter-message"></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LUXORA. All Rights Reserved.</p>
+            <div class="payment-icons">
+                <span>Visa</span><span>Mastercard</span><span>Amex</span><span>PayPal</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Search overlay -->
+<div class="search-overlay">
+    <button class="search-close" aria-label="Close search">&times;</button>
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="Search products..." autocomplete="off">
+        <div class="search-results"></div>
+    </div>
+</div>
+
+<!-- Mobile navigation drawer -->
+<div class="nav-scrim"></div>
+<div class="mobile-nav">
+    <button class="mobile-nav-close" aria-label="Close menu">&times;</button>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="shop.html?category=Men">Men</a>
+    <a href="shop.html?category=Women">Women</a>
+    <a href="shop.html?category=Kids">Kids</a>
+    <a href="shop.html">New Arrivals</a>
+    <a href="sale.html">Sale</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="wishlist.html">Wishlist</a>
+    <a href="cart.html">Cart</a>
+    <a href="login.html">Account</a>
+</div>
+
+<!-- Mini cart drawer -->
+<div class="nav-scrim" id="mini-cart-scrim"></div>
+<div class="mini-cart" id="mini-cart">
+    <div class="mini-cart-header">
+        <h3>Your Cart</h3>
+        <button id="mini-cart-close" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="mini-cart-items" id="mini-cart-items"></div>
+    <div class="mini-cart-footer">
+        <div class="mini-cart-subtotal">
+            <span>Subtotal</span>
+            <span id="mini-cart-subtotal">$0</span>
+        </div>
+        <a href="cart.html" class="btn btn-outline-dark btn-block" style="margin-bottom:10px;">View Cart</a>
+        <a href="checkout.html" class="btn btn-dark btn-block">Checkout</a>
+    </div>
+</div>
+
+<!-- Toast notification -->
+<div class="toast" id="toast"></div>
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/wishlist.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

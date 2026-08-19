@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Account — LUXORA</title>
+<meta name="description" content="Create a LUXORA account.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div class="announcement-bar">Free shipping on all orders over $150 &mdash; Code LUXORA10 for 10% off</div>
+<header class="site-header">
+    <div class="header-inner">
+        <a href="index.html" class="logo">LUXORA</a>
+        <nav class="main-nav">
+            <a href="index.html" class="">Home</a>
+            <a href="shop.html" class="">Shop</a>
+            <a href="shop.html?category=Men" class="">Men</a>
+            <a href="shop.html?category=Women" class="">Women</a>
+            <a href="shop.html?category=Kids" class="">Kids</a>
+            <a href="shop.html" class="">New Arrivals</a>
+            <a href="sale.html" class="">Sale</a>
+            <a href="about.html" class="">About</a>
+            <a href="contact.html" class="">Contact</a>
+        </nav>
+        <div class="header-icons">
+            <a href="#" class="icon-btn search-trigger" aria-label="Search">&#128269;</a>
+            <a href="wishlist.html" class="icon-btn" aria-label="Wishlist">&#9825;<span class="count-badge wishlist-count-badge">0</span></a>
+            <a href="#" class="icon-btn cart-trigger" aria-label="Cart">&#128092;<span class="count-badge cart-count-badge">0</span></a>
+            <a href="login.html" class="icon-btn" aria-label="Account">&#128100;</a>
+            <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</header>
+
+<section class="section section-cream" style="min-height:70vh; display:flex; align-items:center;">
+    <div class="container">
+        <div class="form-card">
+            <h1>Create Account</h1>
+            <p>Join LUXORA for a faster checkout and saved wishlists.</p>
+            <form id="register-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" id="reg-first-name">
+                        <span class="form-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" id="reg-last-name">
+                        <span class="form-error"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="reg-email">
+                    <span class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="reg-password">
+                    <span class="form-error"></span>
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" id="reg-confirm-password">
+                    <span class="form-error"></span>
+                </div>
+                <button type="submit" class="btn btn-dark btn-block">Create Account</button>
+                <p id="register-success" style="text-align:center;color:var(--color-gold);margin-top:16px;font-size:0.88rem;"></p>
+            </form>
+            <p class="form-footer-note">Already have an account? <a href="login.html">Sign In</a></p>
+        </div>
+    </div>
+</section>
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col footer-brand">
+                <a href="index.html" class="logo">LUXORA</a>
+                <p>Contemporary fashion designed for modern living. Timeless pieces, thoughtfully made.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="TikTok">TT</a>
+                    <a href="#" aria-label="Pinterest">PN</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="shop.html?category=Women">Women</a></li>
+                    <li><a href="shop.html?category=Men">Men</a></li>
+                    <li><a href="shop.html?category=Kids">Kids</a></li>
+                    <li><a href="shop.html">New Arrivals</a></li>
+                    <li><a href="sale.html">Sale</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">Shipping</a></li>
+                    <li><a href="faq.html">Returns</a></li>
+                    <li><a href="size-guide.html">Size Guide</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="about.html">Sustainability</a></li>
+                    <li><a href="about.html">Journal</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-newsletter">
+                <h4>Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit" class="btn btn-dark btn-block">Subscribe</button>
+                </form>
+                <p class="newsletter-message"></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LUXORA. All Rights Reserved.</p>
+            <div class="payment-icons">
+                <span>Visa</span><span>Mastercard</span><span>Amex</span><span>PayPal</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Search overlay -->
+<div class="search-overlay">
+    <button class="search-close" aria-label="Close search">&times;</button>
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="Search products..." autocomplete="off">
+        <div class="search-results"></div>
+    </div>
+</div>
+
+<!-- Mobile navigation drawer -->
+<div class="nav-scrim"></div>
+<div class="mobile-nav">
+    <button class="mobile-nav-close" aria-label="Close menu">&times;</button>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="shop.html?category=Men">Men</a>
+    <a href="shop.html?category=Women">Women</a>
+    <a href="shop.html?category=Kids">Kids</a>
+    <a href="shop.html">New Arrivals</a>
+    <a href="sale.html">Sale</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="wishlist.html">Wishlist</a>
+    <a href="cart.html">Cart</a>
+    <a href="login.html">Account</a>
+</div>
+
+<!-- Mini cart drawer -->
+<div class="nav-scrim" id="mini-cart-scrim"></div>
+<div class="mini-cart" id="mini-cart">
+    <div class="mini-cart-header">
+        <h3>Your Cart</h3>
+        <button id="mini-cart-close" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="mini-cart-items" id="mini-cart-items"></div>
+    <div class="mini-cart-footer">
+        <div class="mini-cart-subtotal">
+            <span>Subtotal</span>
+            <span id="mini-cart-subtotal">$0</span>
+        </div>
+        <a href="cart.html" class="btn btn-outline-dark btn-block" style="margin-bottom:10px;">View Cart</a>
+        <a href="checkout.html" class="btn btn-dark btn-block">Checkout</a>
+    </div>
+</div>
+
+<!-- Toast notification -->
+<div class="toast" id="toast"></div>
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/wishlist.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
